@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Approvals";
+}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3 class="mb-0">Approval Queue</h3>
+    <div class="btn-group">
+        <a class="btn btn-outline-secondary"><i class="bi bi-funnel"></i> Filter</a>
+        <a class="btn btn-outline-secondary"><i class="bi bi-arrow-clockwise"></i> Refresh</a>
+    </div>
+</div>
+
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Lecturer</th>
+                    <th>Period</th>
+                    <th>Hours</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var row in new[] {
+                                new {Lecturer="J. Smith", Period="Aug 2025", Hours="14.0", Amount="R6 300", Status="Submitted"},
+                                new {Lecturer="A. Naidoo", Period="Aug 2025", Hours="11.5", Amount="R5 175", Status="Verified"}
+                                })
+                {
+                    <tr>
+                        <td>@row.Lecturer</td>
+                        <td>@row.Period</td>
+                        <td>@row.Hours</td>
+                        <td>@row.Amount</td>
+                        <td>@await Html.PartialAsync("_StatusBadge", row.Status)</td>
+                        <td class="text-end">
+                            <a asp-action="Review" class="btn btn-sm btn-success"><i class="bi bi-check2"></i> Approve</a>
+                            <a asp-action="Review" class="btn btn-sm btn-outline-danger"><i class="bi bi-x-lg"></i> Reject</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

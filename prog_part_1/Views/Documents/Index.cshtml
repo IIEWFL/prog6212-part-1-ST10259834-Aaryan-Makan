@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Documents";
+}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3 class="mb-0">Documents</h3>
+    <a class="btn btn-primary" asp-action="Upload"><i class="bi bi-upload"></i> Upload</a>
+</div>
+
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>File Name</th>
+                    <th>Type</th>
+                    <th>Size</th>
+                    <th>Uploaded</th>
+                    <th>Linked Claim</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var doc in new[] {
+                                new {Name="Timesheet_Aug_2025.pdf", Type="PDF", Size="210 KB", Date="2025-08-31", Claim="Aug 2025"},
+                                new {Name="Class_List_July.xlsx", Type="Excel", Size="95 KB", Date="2025-07-30", Claim="Jul 2025"}
+                                })
+                {
+                    <tr>
+                        <td>@doc.Name</td>
+                        <td>@doc.Type</td>
+                        <td>@doc.Size</td>
+                        <td>@doc.Date</td>
+                        <td>@doc.Claim</td>
+                        <td class="text-end">
+                            <a class="btn btn-sm btn-outline-secondary"><i class="bi bi-eye"></i> Preview</a>
+                            <a class="btn btn-sm btn-outline-danger"><i class="bi bi-trash"></i> Remove</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

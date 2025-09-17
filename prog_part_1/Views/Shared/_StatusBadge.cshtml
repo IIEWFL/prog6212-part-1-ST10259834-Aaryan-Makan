@@ -1,0 +1,14 @@
+﻿@model string
+@{
+    var map = new Dictionary<string, string>
+    {
+        ["Draft"] = "secondary",
+        ["Submitted"] = "primary",
+        ["Verified"] = "info",
+        ["Approved"] = "success",
+        ["Rejected"] = "danger",
+        ["Settled"] = "dark"
+    };
+    var cls = map.ContainsKey(Model ?? "") ? map[Model] : "secondary";
+}
+<span class="badge text-bg-@cls">@Model</span>

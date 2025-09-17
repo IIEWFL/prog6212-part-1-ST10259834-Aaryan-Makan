@@ -1,22 +1,126 @@
-html {
-  font-size: 14px;
+/* ===== CMCS colorful theme ===== */
+:root {
+    --cmcs-bg: #f7f7fb;
+    --cmcs-primary: #7c3aed; /* purple */
+    --cmcs-primary-2: #0ea5e9; /* sky */
+    --cmcs-accent: #22c55e; /* green */
+    --cmcs-hot: #ef4444; /* red */
+    --cmcs-amber: #f59e0b; /* amber */
+    --cmcs-ink: #0f172a; /* text */
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+html, body {
+    height: 100%
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    body.theme-candy {
+        background: radial-gradient(1500px 600px at 80% -20%, rgba(14,165,233,.15), transparent 60%), radial-gradient(1200px 500px at -10% 0%, rgba(124,58,237,.12), transparent 60%), var(--cmcs-bg);
+        font-family: "Poppins",system-ui,-apple-system,Segoe UI,Roboto,Arial;
+        color: var(--cmcs-ink);
+    }
+
+/* Navbar */
+.navbar-gradient {
+    background: linear-gradient(90deg, var(--cmcs-primary) 0%, #9333ea 40%, var(--cmcs-primary-2) 100%);
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.brand-badge {
+    display: inline-grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    background: rgba(255,255,255,.2);
+    color: #fff;
 }
 
-body {
-  margin-bottom: 60px;
+/* Glass panels */
+.glass {
+    background: rgba(255,255,255,.55) !important;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,.35) !important;
+}
+
+/* Cards & tables */
+.card {
+    border-radius: 16px;
+    border: 1px solid #e7e7ef;
+}
+
+    .card:hover {
+        transform: translateY(-2px);
+        transition: .2s ease;
+        box-shadow: 0 8px 24px rgba(16,24,40,.08);
+    }
+
+.table > :not(caption) > * > * {
+    vertical-align: middle;
+}
+
+.nav-underline .nav-link {
+    color: rgba(255,255,255,.9);
+}
+
+    .nav-underline .nav-link:hover {
+        color: #fff;
+    }
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(90deg, var(--cmcs-primary), #9333ea);
+    border: 0;
+}
+
+.btn-outline-danger {
+    border-color: var(--cmcs-hot);
+    color: var(--cmcs-hot);
+}
+
+    .btn-outline-danger:hover {
+        background: var(--cmcs-hot);
+        color: #fff;
+    }
+
+/* Status badges (override Bootstrap contextual colors) */
+.text-bg-secondary {
+    background: #94a3b8 !important;
+}
+
+.text-bg-primary {
+    background: linear-gradient(90deg,#3b82f6,#06b6d4) !important;
+}
+
+.text-bg-info {
+    background: #22d3ee !important;
+    color: #0a0a0a !important;
+}
+
+.text-bg-success {
+    background: linear-gradient(90deg,#10b981,#22c55e) !important;
+}
+
+.text-bg-danger {
+    background: linear-gradient(90deg,#ef4444,#f97316) !important;
+}
+
+.text-bg-dark {
+    background: #111827 !important;
+}
+
+.badge {
+    border-radius: 999px;
+    padding: .45rem .65rem;
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    background: rgba(255,255,255,.6);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid #e7e7ef !important;
+}
+
+/* Misc */
+.navbar-brand {
+    letter-spacing: .2px
 }

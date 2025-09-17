@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Claim Details";
+}
+<div class="card shadow-sm">
+    <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Claim · Aug 2025</h5>
+            @await Html.PartialAsync("_StatusBadge", "Submitted")
+        </div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-3">Hours Worked</dt>
+            <dd class="col-sm-9">14.0</dd>
+            <dt class="col-sm-3">Hourly Rate</dt>
+            <dd class="col-sm-9">R450</dd>
+            <dt class="col-sm-3">Amount</dt>
+            <dd class="col-sm-9">R6 300</dd>
+            <dt class="col-sm-3">Submitted</dt>
+            <dd class="col-sm-9">2025-08-31</dd>
+        </dl>
+        <a asp-action="Index" class="btn btn-outline-secondary"><i class="bi bi-arrow-left"></i> Back</a>
+    </div>
+</div>

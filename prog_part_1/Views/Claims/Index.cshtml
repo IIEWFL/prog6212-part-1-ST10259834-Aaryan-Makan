@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Claims";
+}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3 class="mb-0">Claims</h3>
+    <div>
+        <a class="btn btn-outline-secondary me-2"><i class="bi bi-funnel"></i> Filter</a>
+        <a class="btn btn-primary" asp-action="Create"><i class="bi bi-plus-lg"></i> New Claim</a>
+    </div>
+</div>
+
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Period</th>
+                    <th>Hours</th>
+                    <th>Rate</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var row in new[] {
+                                new {Period="Aug 2025", Hours="14.0", Rate="R450", Amount="R6 300", Status="Submitted"},
+                                new {Period="Jul 2025", Hours="18.0", Rate="R450", Amount="R8 100", Status="Approved"},
+                                new {Period="Jun 2025", Hours="10.0", Rate="R450", Amount="R4 500", Status="Rejected"},
+                                new {Period="May 2025", Hours="12.0", Rate="R450", Amount="R5 400", Status="Verified"}
+                                })
+                {
+                    <tr>
+                        <td>@row.Period</td>
+                        <td>@row.Hours</td>
+                        <td>@row.Rate</td>
+                        <td>@row.Amount</td>
+                        <td>@await Html.PartialAsync("_StatusBadge", row.Status)</td>
+                        <td class="text-end">
+                            <a class="btn btn-sm btn-outline-secondary" asp-action="Details"><i class="bi bi-eye"></i> View</a>
+                            <a class="btn btn-sm btn-outline-primary" asp-action="Create"><i class="bi bi-pencil-square"></i> Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,97 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<section class="py-5">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+            <h1 class="display-5 fw-semibold mb-2">
+                Contract Monthly Claim System <span class="text-primary">Prototype</span>
+            </h1>
+            <p class="lead text-muted mb-4">
+                Welcome! This is a non-functional UI prototype for submitting, tracking, and approving monthly lecturer claims.
+            </p>
+            <div class="d-flex flex-wrap gap-2">
+                <a asp-controller="Claims" asp-action="Create" class="btn btn-primary btn-lg">
+                    <i class="bi bi-plus-lg me-1"></i> Submit a Claim
+                </a>
+                <a asp-controller="Claims" asp-action="Index" class="btn btn-outline-primary btn-lg">
+                    <i class="bi bi-journal-text me-1"></i> View My Claims
+                </a>
+                <a asp-controller="Approvals" asp-action="Index" class="btn btn-outline-success btn-lg">
+                    <i class="bi bi-check2-square me-1"></i> Approval Queue
+                </a>
+                <a asp-controller="Documents" asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                    <i class="bi bi-paperclip me-1"></i> Documents
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <div class="card shadow-sm border-0">
+                <div class="card-body">
+                    <h5 class="mb-3"><i class="bi bi-speedometer2 me-1"></i> Quick Stats</h5>
+                    <div class="row text-center g-3">
+                        <div class="col-6">
+                            <div class="p-3 rounded bg-light">
+                                <div class="h4 mb-0">8</div>
+                                <div class="small text-muted">My Claims</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 rounded bg-light">
+                                <div class="h4 mb-0">2</div>
+                                <div class="small text-muted">Pending</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 rounded bg-light">
+                                <div class="h4 mb-0">5</div>
+                                <div class="small text-muted">Approved</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 rounded bg-light">
+                                <div class="h4 mb-0">12</div>
+                                <div class="small text-muted">Documents</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <p class="small text-muted mb-0">Note: This PoE Part 1 build is a UI-only prototype with mock data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-4">
+    <h5 class="mb-3">Get Started</h5>
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h6 class="fw-semibold"><i class="bi bi-journal-plus me-1"></i> Submit a Monthly Claim</h6>
+                    <p class="text-muted small mb-3">Enter hours, rate, and attach supporting documents.</p>
+                    <a class="btn btn-sm btn-primary" asp-controller="Claims" asp-action="Create">Open</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h6 class="fw-semibold"><i class="bi bi-eye me-1"></i> Track Claim Status</h6>
+                    <p class="text-muted small mb-3">See Submitted, Verified, Approved, Rejected at a glance.</p>
+                    <a class="btn btn-sm btn-outline-primary" asp-controller="Claims" asp-action="Index">Open</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h6 class="fw-semibold"><i class="bi bi-check2-circle me-1"></i> Approve or Reject</h6>
+                    <p class="text-muted small mb-3">Coordinator/Manager view of the approval queue.</p>
+                    <a class="btn btn-sm btn-outline-success" asp-controller="Approvals" asp-action="Index">Open</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
