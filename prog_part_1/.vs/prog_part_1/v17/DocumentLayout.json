@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\shared\\_statusbadge.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\shared\\_statusbadge.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\approvals\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\approvals\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\approvals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\approvals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\documents\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\documents\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\claims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,8 +23,40 @@
       "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\claims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\approvals\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\approvals\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\documents\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\documents\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\shared\\_statusbadge.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\shared\\_statusbadge.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\approvals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|solutionrelative:views\\approvals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9EB9A10-0ED6-4A77-88E5-2F4FAEB8634D}|prog_part_1.csproj|c:\\users\\rajeshm\\documents\\prog6212-part-1-st10259834-aaryan-makan\\prog_part_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,24 +82,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Home.cshtml",
               "ToolTip": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "Views\\Home\\Home.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAQwGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T14:04:15.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T14:04:15.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Claims\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Claims\\Details.cshtml",
@@ -111,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Claims\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Claims\\Create.cshtml",
@@ -123,19 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T12:42:06.794Z"
+              "WhenOpened": "2025-09-17T12:42:06.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Claims\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Claims\\Index.cshtml",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -155,12 +155,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-17T13:17:45.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T13:17:45.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -184,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -196,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Documents\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Documents\\Index.cshtml",
@@ -208,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Upload.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Documents\\Upload.cshtml",
               "RelativeDocumentMoniker": "Views\\Documents\\Upload.cshtml",
@@ -220,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
@@ -232,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "_StatusBadge.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Shared\\_StatusBadge.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_StatusBadge.cshtml",
@@ -244,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\RajeshM\\Documents\\prog6212-part-1-ST10259834-Aaryan-Makan\\prog_part_1\\Views\\Approvals\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Approvals\\Index.cshtml",
